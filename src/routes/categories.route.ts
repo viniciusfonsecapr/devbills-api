@@ -5,4 +5,4 @@ export const categoriesRoutes = Router();
 
 const controller = new CategoriesController();
 
-categoriesRoutes.get('/', controller.create);
+categoriesRoutes.post('/', controller.create);
